@@ -10,6 +10,10 @@ dependencies: [
 ]
 ```
 
+```ruby
+    pod 'DotKit', '~> 0.0.1'
+```
+
 ## Usage
 
 ```swift
