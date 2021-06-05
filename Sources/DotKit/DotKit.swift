@@ -7,14 +7,13 @@ public struct Dotkit<Base> {
     }
 }
 
-
-public protocol DotkitWrappalbe {
+public protocol DotkitWrappable {
     associatedtype T
     var dk: T { get }
     static var dk: T.Type { get }
 }
 
-extension DotkitWrappalbe {
+extension DotkitWrappable {
     public var dk: Dotkit<Self> {
         return Dotkit(base: self)
     }
@@ -24,4 +23,4 @@ extension DotkitWrappalbe {
     }
 }
 
-extension NSObject: DotkitWrappalbe { }
+extension NSObject: DotkitWrappable { }
