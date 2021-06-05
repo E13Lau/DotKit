@@ -238,6 +238,13 @@ extension Dotkit where Base: UIView {
         base.removeConstraints(constraints)
         return self
     }
+    
+    @discardableResult
+    public func translatesAutoresizingMaskIntoConstraints(_ value: Bool) -> Self {
+        base.translatesAutoresizingMaskIntoConstraints = value
+        return self
+    }
+
 }
 
 
@@ -249,9 +256,14 @@ extension Dotkit where Base: UIView {
     }
 
     @discardableResult
-    public func configLayer(_ closure: (_ layer: CALayer) -> Void) -> Self {
-        closure(base.layer)
+    public func configLayer(_ closure: (_ base: Base) -> Void) -> Self {
+        closure(base)
         return self
     }
     
+    @discardableResult
+    public func activateLayoutConstraint(_ closure: (Base) -> [NSLayoutConstraint]) -> Self {
+        NSLayoutConstraint.activate(closure(base))
+        return self
+    }
 }
