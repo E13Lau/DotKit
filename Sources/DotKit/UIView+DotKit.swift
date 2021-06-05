@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dotdot where Base: UIView {
+extension Dotkit where Base: UIView {
     
     @discardableResult
     public func isUserInteractionEnabled(_ value: Bool) -> Self {
@@ -210,7 +210,7 @@ extension Dotdot where Base: UIView {
 
 }
 
-extension Dotdot where Base: UIView {
+extension Dotkit where Base: UIView {
     @available(iOS 6.0, *)
     @discardableResult
     public func addConstraint(_ constraint: NSLayoutConstraint) -> Self {
@@ -241,7 +241,7 @@ extension Dotdot where Base: UIView {
 }
 
 
-extension Dotdot where Base: UIView {
+extension Dotkit where Base: UIView {
     @discardableResult
     public func asSubviewAdd(to parentview: UIView) -> Self {
         parentview.addSubview(base)

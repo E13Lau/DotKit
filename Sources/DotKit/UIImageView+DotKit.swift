@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dotdot where Base: UIImageView {
+extension Dotkit where Base: UIImageView {
     
     @discardableResult
     public func image(_ value: UIImage?) -> Self {
@@ -27,6 +27,4 @@ extension Dotdot where Base: UIImageView {
         base.contentMode = value
         return self
     }
-
-    
 }

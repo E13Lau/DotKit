@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dotdot where Base: UILabel {
+extension Dotkit where Base: UILabel {
         
     @discardableResult
     public func text(_ value: String?) -> Self {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dotdot where Base: UIStackView {
+extension Dotkit where Base: UIStackView {
     @discardableResult
     public func axis(_ value: NSLayoutConstraint.Axis) -> Self {
         base.axis = value

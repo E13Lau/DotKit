@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Dotdot<Base> {
+public struct Dotkit<Base> {
     public let base: Base
     init(base: Base) {
         self.base = base
@@ -8,20 +8,20 @@ public struct Dotdot<Base> {
 }
 
 
-public protocol DotdotWrappalbe {
+public protocol DotkitWrappalbe {
     associatedtype T
-    var dd: T { get }
-    static var dd: T.Type { get }
+    var dk: T { get }
+    static var dk: T.Type { get }
 }
 
-extension DotdotWrappalbe {
-    public var dd: Dotdot<Self> {
-        return Dotdot(base: self)
+extension DotkitWrappalbe {
+    public var dk: Dotkit<Self> {
+        return Dotkit(base: self)
     }
     
-    public static var dd: Dotdot<Self>.Type {
-        return Dotdot<Self>.self
+    public static var dk: Dotkit<Self>.Type {
+        return Dotkit<Self>.self
     }
 }
 
-extension NSObject: DotdotWrappalbe { }
+extension NSObject: DotkitWrappalbe { }

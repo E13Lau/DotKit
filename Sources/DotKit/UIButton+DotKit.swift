@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Dotdot where Base: UIButton {
+extension Dotkit where Base: UIButton {
     @discardableResult
     public func setTitle(_ title: String?, for state: UIControl.State) -> Self {
         base.setTitle(title, for: state)
@@ -37,11 +37,6 @@ extension Dotdot where Base: UIButton {
         base.setBackgroundImage(image, for: state)
         return self
     }
-    
-    
-
-
-
     
     @discardableResult
     public func font(_ value: UIFont) -> Self {
