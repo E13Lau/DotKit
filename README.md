@@ -50,5 +50,5 @@ let label = UILabel()
 
 ## See more
 
-- ![DotKit+SnapKit](https://github.com/E13Lau/DotKit-SnapKit)
-- ![DotKit+Logic](https://github.com/E13Lau/DotKit-Logic)
+- [DotKit+SnapKit](https://github.com/E13Lau/DotKit-SnapKit)
+- [DotKit+Logic](https://github.com/E13Lau/DotKit-Logic)
