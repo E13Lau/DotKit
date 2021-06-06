@@ -45,6 +45,8 @@ let label = UILabel()
         ]
     }
     .setContentHuggingPriority(.defaultHigh, for: .vertical)
+    .isAccessibilityElement(true)
+    .accessibilityLabel("Hello")
     .base
 ```
 
@@ -52,3 +54,31 @@ let label = UILabel()
 
 - [DotKit+SnapKit](https://github.com/E13Lau/DotKit-SnapKit)
 - [DotKit+Logic](https://github.com/E13Lau/DotKit-Logic)
+
+## Wrappable
+
+- [x] CAAnimation
+- [x] CALayer
+- [x] CAReplicatorLayer
+- [x] CAShapeLayer
+- [x] CATextLayer
+- [x] UIAccessibility
+- [x] UIButton
+- [x] UIControl
+- [x] UIImageView
+- [x] UILabel
+- [x] UIScrollView
+- [x] UISlider
+- [x] UIStackView
+- [x] UISwitch
+- [x] UITextField
+- [x] UITextView
+- [x] UIView
+- [ ] UIPickerView
+- [ ] UIDatePicker
+- [ ] UITableView
+- [ ] UICollectionView
+- [ ] UISearchBar
+- [ ] UIToolbar
+- [ ] UIActivityIndicatorView
+- [ ] UIPageControl

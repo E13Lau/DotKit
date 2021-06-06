@@ -23,6 +23,8 @@ class MyViewController : UIViewController {
             .numberOfLines(0)
             .asSubviewAdd(to: view)
             .setContentHuggingPriority(.defaultHigh, for: .vertical)
+            .isAccessibilityElement(true)
+            .accessibilityLabel("Hello")
             .base
         
         
