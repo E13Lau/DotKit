@@ -76,9 +76,10 @@ let label = UILabel()
 - [x] UIView
 - [ ] UIPickerView
 - [ ] UIDatePicker
-- [ ] UITableView
-- [ ] UICollectionView
+- [x] UITableView
+- [x] UICollectionView
 - [ ] UISearchBar
 - [ ] UIToolbar
 - [ ] UIActivityIndicatorView
 - [ ] UIPageControl
+- [ ] WKWebView
