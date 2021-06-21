@@ -6,12 +6,12 @@ A description of this package.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/E13Lau/DotKit.git", from: "0.0.4"),
+    .package(url: "https://github.com/E13Lau/DotKit.git", from: "0.0.5"),
 ]
 ```
 
 ```ruby
-pod 'DotKit', '~> 0.0.4'
+pod 'DotKit', '~> 0.0.5'
 ```
 
 ## Usage
