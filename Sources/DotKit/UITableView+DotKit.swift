@@ -8,6 +8,7 @@
 import UIKit
 
 extension Dotkit where Base: UITableView {
+    
     @discardableResult
     public func dataSource(_ value: UITableViewDataSource?) -> Self {
         base.dataSource = value

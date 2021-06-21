@@ -8,6 +8,7 @@
 import UIKit
 
 extension Dotkit where Base: UIScrollView {
+    
     @discardableResult
     public func contentOffset(_ value: CGPoint) -> Self {
         base.contentOffset = value

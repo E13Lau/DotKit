@@ -74,12 +74,11 @@ let label = UILabel()
 - [x] UITextField
 - [x] UITextView
 - [x] UIView
-- [ ] UIPickerView
-- [ ] UIDatePicker
+- [x] UIPickerView
+- [x] UIDatePicker
 - [x] UITableView
 - [x] UICollectionView
-- [ ] UISearchBar
-- [ ] UIToolbar
-- [ ] UIActivityIndicatorView
-- [ ] UIPageControl
-- [ ] WKWebView
+- [x] UISearchBar
+- [x] UIToolbar
+- [x] UIActivityIndicatorView
+- [x] UIPageControl

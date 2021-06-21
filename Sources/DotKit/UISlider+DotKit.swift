@@ -8,6 +8,7 @@
 import UIKit
 
 extension Dotkit where Base: UISlider {
+    
     @discardableResult
     public func value(_ value: Float) -> Self {
         base.value = value

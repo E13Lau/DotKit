@@ -8,6 +8,7 @@
 import UIKit
 
 extension Dotkit where Base: UISwitch {
+    
     @available(iOS 5.0, *)
     @discardableResult
     public func onTintColor(_ value: UIColor?) -> Self {

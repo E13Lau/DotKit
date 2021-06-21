@@ -8,6 +8,7 @@
 import UIKit
 
 extension Dotkit where Base : UITextField {
+    
     @discardableResult
     public func text(_ value: String?) -> Self {
         base.text = value
